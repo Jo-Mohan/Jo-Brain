@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "49974665fe30fb08",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d8c4cf8d1eb4df2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63315450519f3e83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gradient Noise.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gradient Noise"
+            }
+          },
+          {
+            "id": "ece9d336e15c4f5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gradient Noise.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gradient Noise"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "144303435f0076d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c66201e3c947275",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b5ead76d26ca5b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4b6e2d92a1414053",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1d8be8fe83e1b7ea",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "e94615717e7d17e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "022070f3dc4fd98b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66a476a38554b601",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "890574f55c57f3d4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "b23511fccb5cf735",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9945c20da7086ce5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "markdown-importer:Open format converter": false,
+      "export-graph-view:Export graph view": false
+    }
+  },
+  "active": "ece9d336e15c4f5b",
+  "lastOpenFiles": [
+    "Perlin Noise.md",
+    "Chains and Antichains.md",
+    "Fractal Noise.md",
+    "Gradient Noise.md",
+    "Bezier Curves.md",
+    "Recursion.md",
+    "Procedural Generation.md",
+    "Untitled.md",
+    "Equivalence Classes.md",
+    "Relations and Order Structures.md",
+    "Lattices.md",
+    "Stars and Bars.md",
+    "Ramsey's Theorem.md",
+    "Gray Codes.md",
+    "Linear Extensions.md",
+    "Permutations (R-Permutations).md",
+    "Hasse Diagrams.md",
+    "Graph.md",
+    "Insertion Algorithms.md",
+    "Combinatorics.md",
+    "Sperner’s Theorem.md",
+    "Reflexive, Irreflexive.md",
+    "Pigeonhole Principal.md",
+    "Combinations (R-Combinations).md",
+    "Test.mmd",
+    "Jo Brain Test.dot",
+    "Jo's Brain Test2.mmd",
+    "Untitled.base",
+    "Jo's Brain Test.mmd",
+    "PageRank Algorithm.md",
+    "Untitled.canvas",
+    "Untitled",
+    "2025-10-02.md"
+  ]
+}

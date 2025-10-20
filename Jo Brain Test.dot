@@ -1,0 +1,35 @@
+digraph Jo's Brain {
+    rankdir=LR;
+    node [shape=box, style=rounded];
+    subgraph cluster_note {
+        label="note";
+        style=rounded;
+        color="#cccccc";
+        "Stars_and_Bars_md" [label="Stars and Bars", fillcolor="#e3f2fd", style="filled,rounded"];
+        "Recursion_md" [label="Recursion", fillcolor="#e3f2fd", style="filled,rounded"];
+        "Ramsey_s_Theorem_md" [label="Ramsey's Theorem", fillcolor="#e3f2fd", style="filled,rounded"];
+        "Pigeonhole_Principal_md" [label="Pigeonhole Principal", fillcolor="#e3f2fd", style="filled,rounded"];
+        "Permutations__R_Permutations__md" [label="Permutations (R-Permutations)", fillcolor="#e3f2fd", style="filled,rounded"];
+        "PageRank_Algorithm_md" [label="PageRank Algorithm", fillcolor="#e3f2fd", style="filled,rounded"];
+        "Insertion_Algorithms_md" [label="Insertion Algorithms", fillcolor="#e3f2fd", style="filled,rounded"];
+        "Graph_md" [label="Graph", fillcolor="#e3f2fd", style="filled,rounded"];
+        "Combinatorics_md" [label="Combinatorics", fillcolor="#e3f2fd", style="filled,rounded"];
+        "Combinations__R_Combinations__md" [label="Combinations (R-Combinations)", fillcolor="#e3f2fd", style="filled,rounded"];
+    }
+    subgraph cluster_folder {
+        label="folder";
+        style=rounded;
+        color="#cccccc";
+        "" [label="", fillcolor="#e3f2fd", style="filled,rounded"];
+    }
+    "Combinations__R_Combinations__md" -> "";
+    "Combinatorics_md" -> "";
+    "Graph_md" -> "";
+    "Insertion_Algorithms_md" -> "";
+    "PageRank_Algorithm_md" -> "";
+    "Permutations__R_Permutations__md" -> "";
+    "Pigeonhole_Principal_md" -> "";
+    "Ramsey_s_Theorem_md" -> "";
+    "Recursion_md" -> "";
+    "Stars_and_Bars_md" -> "";
+}
