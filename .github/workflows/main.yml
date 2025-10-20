@@ -1,0 +1,58 @@
+name: Deploy Obsidian Graph to Website
+
+# This workflow runs on every push to the main branch of obsidian-git
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Check out the obsidian-git repo's contents
+      - name: Checkout Obsidian Vault
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Python to run your script
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Step 3: Run your script to create graph-data.json
+      - name: Generate Graph Data
+        run: python generate_json.py .
+
+      # Step 4: Configure SSH using the deploy key secret
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+
+      # Step 5: Clone the website repo, update the file, and push
+      - name: Push to Website Repo
+        run: |
+          # Clone your jo-mohan.github.io repo using SSH
+          git clone git@github.com:jo-mohan/jo-mohan.github.io.git website_repo
+          
+          # Move the newly generated file into the website repo
+          mv graph-data.json website_repo/graph-data.json
+          
+          # Go into the website repo's directory
+          cd website_repo
+          
+          # Configure git for the commit
+          git config user.name "GitHub Action Bot"
+          git config user.email "actions@github.com"
+          
+          # Add and commit the file
+          git add graph-data.json
+          
+          # Only commit and push if there are actual changes
+          if git diff --staged --quiet; then
+            echo "No changes to graph data. Skipping commit."
+          else
+            git commit -m "docs: ✨ auto-update obsidian graph data"
+            git push
+          fi
