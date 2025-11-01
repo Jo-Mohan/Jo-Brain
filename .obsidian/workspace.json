@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4d8c4cf8d1eb4df2",
+        "id": "f9d01a6307724767",
         "type": "tabs",
         "children": [
           {
-            "id": "63315450519f3e83",
+            "id": "daf4be9095df002f",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -164,8 +164,18 @@
       "export-graph-view:Export graph view": false
     }
   },
-  "active": "63315450519f3e83",
+  "active": "daf4be9095df002f",
   "lastOpenFiles": [
+    "Lattices.md",
+    "Grinold's Law.md",
+    "Benchmarking.md",
+    "Autoregressive Models.md",
+    "Quantitative Finance.md",
+    "Information Coefficient.md",
+    "Autocorrelation.md",
+    "2025-10-29.md",
+    "Untitled.canvas",
+    "Untitled",
     "Gradient Noise.md",
     "Ramsey's Theorem.md",
     "Fractal Noise.md",
@@ -181,23 +191,14 @@
     "generate_json.py",
     "Recursion.md",
     "Relations and Order Structures.md",
-    "Lattices.md",
     "Gray Codes.md",
     "Linear Extensions.md",
     "Permutations (R-Permutations).md",
     "Hasse Diagrams.md",
-    "Graph.md",
-    "Insertion Algorithms.md",
-    "Sperner’s Theorem.md",
-    "Reflexive, Irreflexive.md",
-    "Pigeonhole Principal.md",
     "Test.mmd",
     "Jo Brain Test.dot",
     "Jo's Brain Test2.mmd",
     "Untitled.base",
-    "Jo's Brain Test.mmd",
-    "PageRank Algorithm.md",
-    "Untitled.canvas",
-    "Untitled"
+    "Jo's Brain Test.mmd"
   ]
 }
