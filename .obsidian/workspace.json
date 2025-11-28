@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f9d01a6307724767",
+        "id": "5aeccef73a504894",
         "type": "tabs",
         "children": [
           {
-            "id": "daf4be9095df002f",
+            "id": "15ba2bc45ec8bf1c",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,8 +16,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "bf007e65b49ca119",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "3009e953a8a9e895",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ledoit-Wolf Shrinkage.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ledoit-Wolf Shrinkage"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -164,37 +189,38 @@
       "export-graph-view:Export graph view": false
     }
   },
-  "active": "daf4be9095df002f",
+  "active": "3009e953a8a9e895",
   "lastOpenFiles": [
-    "Lattices.md",
+    "Ledoit-Wolf Shrinkage.md",
+    "Covariance.md",
     "Grinold's Law.md",
+    "Spurious Correlation.md",
+    "Screenshot 2025-11-22 at 6.36.24 PM.png",
     "Benchmarking.md",
-    "Autoregressive Models.md",
     "Quantitative Finance.md",
-    "Information Coefficient.md",
+    "Order Book.md",
+    "Market Microstructure Signals.md",
+    "Relations and Order Structures.md",
+    "Combinatorics.md",
+    "Fractal Noise.md",
+    "Insertion Algorithms.md",
+    "Autoregressive Models.md",
+    "Graph.md",
+    "Bezier Curves.md",
     "Autocorrelation.md",
+    "Perlin Noise.md",
+    "Procedural Generation.md",
+    "Recursion.md",
+    "Lattices.md",
+    "Information Coefficient.md",
     "2025-10-29.md",
     "Untitled.canvas",
     "Untitled",
     "Gradient Noise.md",
     "Ramsey's Theorem.md",
-    "Fractal Noise.md",
-    "Perlin Noise.md",
-    "Procedural Generation.md",
     "Equivalence Classes.md",
     "Chains and Antichains.md",
-    "Combinatorics.md",
-    "Combinations (R-Combinations).md",
-    "Bezier Curves.md",
-    "Stars and Bars.md",
-    "test note.md",
     "generate_json.py",
-    "Recursion.md",
-    "Relations and Order Structures.md",
-    "Gray Codes.md",
-    "Linear Extensions.md",
-    "Permutations (R-Permutations).md",
-    "Hasse Diagrams.md",
     "Test.mmd",
     "Jo Brain Test.dot",
     "Jo's Brain Test2.mmd",
